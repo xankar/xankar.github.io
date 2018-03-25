@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html>
-<nav>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
-          body {margin:0;}
+<head>
+    <style>
+        ul{
+          font-family: serif;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #696969;
+          text-align: center;
+        }
+        li{
+          display: inline;
+        }
+        li a{
+          display:inline-block;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          padding: 14px 16px;
+        }
+        li a:hover{
+          color: #800000;
+        }
+    </style>
 
-          .navbar {
-            text-align:center;
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            top: 0;
-            width: 100%;
-          }
-
-          .navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-          }
-
-          .navbar a:hover {
-            background: #ddd;
-            color: black;
-          }
-
-          .main {
-            padding: 16px;
-            margin-top: 30px;
-            height: 1500px; /* Used in this example to enable scrolling */
-          }
-        </style>
-<div class="navbar">
-  <a href="/Home/">Home</a>
-  <a href="/Manga/">Manga</a>
-  <a href="/Latest Releases/">Latest Releases</a>
-  <a href="https://mangadex.org">Mangadex</a>
-  <a href="/about us page/">About/FAQ</a>
-  <a href="/join us page, link to discord/">Join Us</a>
-</div>
-</nav>
-
+<body>  
+    <ul>
+        <li><a href="/Home/">Home</a></li>
+        <li><a href="/Manga/">Manga</a></li>
+        <li><a href="/Latest Releases/">Latest Releases</a></li>
+        <li><a href="https://mangadex.org">Mangadex</a></li>
+        <li><a href="/about us page/">About/FAQ</a></li>
+        <li><a href="/join us page, link to discord/">Join Us</a></li>
+    </ul>
+</body>
+</head>
 </html>
